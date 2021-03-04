@@ -1,0 +1,102 @@
+{
+  "_from": "@shopware-pwa/default-theme",
+  "_id": "@shopware-pwa/default-theme@0.7.1",
+  "_inBundle": false,
+  "_integrity": "sha512-5+yk5J8w/HqzmSuw+bd6KwlErQVNyK+awBpjwrVE/wUKv8ug+Cnwpsyisnb8rYxYO/4MQsOiq224qJGpa6dY/A==",
+  "_location": "/@shopware-pwa/default-theme",
+  "_phantomChildren": {
+    "@nuxt/babel-preset-app": "2.15.2",
+    "@nuxt/builder": "2.15.2",
+    "@nuxt/cli": "2.15.2",
+    "@nuxt/components": "2.1.2",
+    "@nuxt/config": "2.15.2",
+    "@nuxt/core": "2.15.2",
+    "@nuxt/generator": "2.15.2",
+    "@nuxt/loading-screen": "2.0.3",
+    "@nuxt/opencollective": "0.3.2",
+    "@nuxt/server": "2.15.2",
+    "@nuxt/telemetry": "1.3.3",
+    "@nuxt/utils": "2.15.2",
+    "@nuxt/vue-app": "2.15.2",
+    "@nuxt/vue-renderer": "2.15.2",
+    "@nuxt/webpack": "2.15.2"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@shopware-pwa/default-theme",
+    "name": "@shopware-pwa/default-theme",
+    "escapedName": "@shopware-pwa%2fdefault-theme",
+    "scope": "@shopware-pwa",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@shopware-pwa/default-theme/-/default-theme-0.7.1.tgz",
+  "_shasum": "49ecbafa8d68f5fa54d82e205f71152b8d9095ce",
+  "_spec": "@shopware-pwa/default-theme",
+  "_where": "/Users/swiftduo/Desktop/yarn",
+  "author": {
+    "name": "patzick",
+    "email": "13100280+patzick@users.noreply.github.com"
+  },
+  "baseTheme": "@shopware-pwa/theme-base",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@shopware-pwa/theme-base": "0.7.1",
+    "@storefront-ui/vue": "0.7.18",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.9.3",
+    "html-to-vue": "^1.3.0",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.14.7",
+    "sass-loader": "^10.0.3",
+    "vue-i18n": "^8.22.1",
+    "vuelidate": "^0.7.6"
+  },
+  "deprecated": false,
+  "description": "Shopware PWA theme",
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.12.5",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^3.0.1",
+    "@shopware-pwa/cli": "0.6.0",
+    "@vue/composition-api": "^1.0.0-beta.19",
+    "@vue/test-utils": "^1.1.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-nuxt": ">=1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.1.2",
+    "vue-jest": "^4.0.0-0"
+  },
+  "files": [
+    "dist"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,vue}": "prettier"
+  },
+  "name": "@shopware-pwa/default-theme",
+  "scripts": {
+    "build": "shopware-pwa build-theme",
+    "dev": "shopware-pwa dev-theme",
+    "lint": "prettier --write './**/*.{js,vue}'",
+    "test": "jest"
+  },
+  "version": "0.7.1"
+}
